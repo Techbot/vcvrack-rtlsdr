@@ -1,0 +1,24 @@
+make.exe --dry-run --always-make --keep-going --print-directory
+make: Entering directory 'c:/Users/techb/Desktop/vcvrack-rtlsdr'
+ 
+A subdirectory or file dep already exists.
+Error occurred while processing: dep.
+process_begin: CreateProcess(NULL, sh.exe -c "/mingw64/bin/gcc.exe -dumpmachine", ...) failed.
+C:\msys64\home\techb\Rack/dep.mk:23: pipe: Bad file descriptor
+ 
+mkdir -p build/src
+/mingw64/bin/g++.exe -std=c++11 -Wsuggest-override  -IC:/msys64/mingw64/bin/..C:/msys64/mingw64/bin/../include/libusb-1.0 -IC:/msys64/mingw64/bin/../include/ -IC:/msys64/mingw64/include  -fPIC -IC:\msys64\home\techb\Rack/include -IC:\msys64\home\techb\Rack/dep/include -g -MMD -MP -g -march=nocona -ffast-math -fno-finite-math-only -Wall -Wextra -Wno-unused-parameter -DARCH_WIN -D_USE_MATH_DEFINES  -c -o build/src/PQ.cpp.o src/PQ.cpp
+mkdir -p build/src
+/mingw64/bin/g++.exe -std=c++11 -Wsuggest-override  -IC:/msys64/mingw64/bin/..C:/msys64/mingw64/bin/../include/libusb-1.0 -IC:/msys64/mingw64/bin/../include/ -IC:/msys64/mingw64/include  -fPIC -IC:\msys64\home\techb\Rack/include -IC:\msys64\home\techb\Rack/dep/include -g -MMD -MP -g -march=nocona -ffast-math -fno-finite-math-only -Wall -Wextra -Wno-unused-parameter -DARCH_WIN -D_USE_MATH_DEFINES  -c -o build/src/plugin.cpp.o src/plugin.cpp
+mkdir -p build/src/modules
+/mingw64/bin/g++.exe -std=c++11 -Wsuggest-override  -IC:/msys64/mingw64/bin/..C:/msys64/mingw64/bin/../include/libusb-1.0 -IC:/msys64/mingw64/bin/../include/ -IC:/msys64/mingw64/include  -fPIC -IC:\msys64\home\techb\Rack/include -IC:\msys64\home\techb\Rack/dep/include -g -MMD -MP -g -march=nocona -ffast-math -fno-finite-math-only -Wall -Wextra -Wno-unused-parameter -DARCH_WIN -D_USE_MATH_DEFINES  -c -o build/src/modules/Scanner.cpp.o src/modules/Scanner.cpp
+mkdir -p build/src/sdr
+/mingw64/bin/g++.exe -std=c++11 -Wsuggest-override  -IC:/msys64/mingw64/bin/..C:/msys64/mingw64/bin/../include/libusb-1.0 -IC:/msys64/mingw64/bin/../include/ -IC:/msys64/mingw64/include  -fPIC -IC:\msys64\home\techb\Rack/include -IC:\msys64\home\techb\Rack/dep/include -g -MMD -MP -g -march=nocona -ffast-math -fno-finite-math-only -Wall -Wextra -Wno-unused-parameter -DARCH_WIN -D_USE_MATH_DEFINES  -c -o build/src/sdr/SDR.cpp.o src/sdr/SDR.cpp
+mkdir -p build/src/sdr
+/mingw64/bin/gcc.exe  -IC:/msys64/mingw64/bin/..C:/msys64/mingw64/bin/../include/libusb-1.0 -IC:/msys64/mingw64/bin/../include/ -IC:/msys64/mingw64/include  -fPIC -IC:\msys64\home\techb\Rack/include -IC:\msys64\home\techb\Rack/dep/include -g -MMD -MP -g -march=nocona -ffast-math -fno-finite-math-only -Wall -Wextra -Wno-unused-parameter -DARCH_WIN -D_USE_MATH_DEFINES  -c -o build/src/sdr/convenience.c.o src/sdr/convenience.c
+mkdir -p build/src/sdr
+/mingw64/bin/gcc.exe  -IC:/msys64/mingw64/bin/..C:/msys64/mingw64/bin/../include/libusb-1.0 -IC:/msys64/mingw64/bin/../include/ -IC:/msys64/mingw64/include  -fPIC -IC:\msys64\home\techb\Rack/include -IC:\msys64\home\techb\Rack/dep/include -g -MMD -MP -g -march=nocona -ffast-math -fno-finite-math-only -Wall -Wextra -Wno-unused-parameter -DARCH_WIN -D_USE_MATH_DEFINES  -c -o build/src/sdr/rtl-sdr.c.o src/sdr/rtl-sdr.c
+ 
+/mingw64/bin/g++.exe -o plugin.dll build/src/PQ.cpp.o build/src/plugin.cpp.o build/src/modules/Scanner.cpp.o build/src/sdr/SDR.cpp.o build/src/sdr/convenience.c.o build/src/sdr/rtl-sdr.c.o C:/msys64/mingw64/bin/../lib/librtlsdr_static.a C:/msys64/mingw64/bin/..${exec_prefix}/lib/libusb-1.0.a -shared -LC:\msys64\home\techb\Rack -lRack 
+make: Leaving directory 'c:/Users/techb/Desktop/vcvrack-rtlsdr'
+ 

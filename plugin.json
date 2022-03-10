@@ -1,25 +1,26 @@
 {
-  "slug": "PulsumQuadratum-SDR",
-  "name": "Pulsum Quadratum",
-  "version": "1.0.0",
-  "license": " GPL-2.0-only",
-  "brand": "PulsumQuadratum-SDR",
-  "author": "Jon Williams",
-  "authorEmail": "",
-  "authorUrl": "https://bongo.zone/",
-  "pluginUrl": "https://bongo.zone/modules/rtl-sdr",
-  "manualUrl": "https://bongo.zone/modules/rtl-sdr",
-  "sourceUrl": "https://github.com/bongozone/vcvrack-rtlsdr",
-  "donateUrl": "",
-  "changelogUrl": "",
+  "slug": "EMC23-TechTools-02",
+  "name": "EMC23 TechTools-02",
+  "version": "2.0.0",
+  "license": "GPL-3.0-only",
+  "brand": "EMC23",
+  "author": "Techbot",
+  "authorEmail": "djtechbot@gmail.com",
+  "authorUrl": "https://twitter.com/techbot",
+  "pluginUrl": "https://github.com/emc23/techtools/",
+  "manualUrl": "https://github.com/emc23/techtools/blob/master/MANUAL.md",
+  "changelogUrl": "https://github.com/emc23/techtools/blob/master/CHANGELOG.md",
+  "sourceUrl": "hhttps://github.com/emc23/techtools/",
+  "donateUrl": "https://paypal.me/lcdemc",
   "modules": [
-    {
-      "slug": "SDRWidget",
-      "name": "SDRWidget",
-      "description": "rtl-sdr FM Radio Tuner",
-      "tags": [
-        "Tuner"
+
+		 {
+		  "slug": "Scanner",
+		  "name": "FMRadio",
+		  "description": "rtl-sdr FM Radio Tuner",
+		  "tags": [
+			"Tuner"
       ]
     }
-  ]
+	]
 }

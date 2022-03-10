@@ -1,3 +1,2 @@
-dist
-build
-*.dylib
+build/
+plugin.dylib

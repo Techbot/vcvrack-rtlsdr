@@ -1,0 +1,1 @@
+{"buildTargets":[".PHONY","all","build/src/PQ.cpp.o","clean","cleandep","dep","dist","install","plugin.dll"],"launchTargets":[],"customConfigurationProvider":{"workspaceBrowse":{"browsePath":[],"compilerArgs":[]},"fileIndex":[]}}

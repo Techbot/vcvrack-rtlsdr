@@ -1,0 +1,607 @@
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+A subdirectory or file -p already exists.
+Error occurred while processing: -p.
+A subdirectory or file dep already exists.
+Error occurred while processing: dep.
+process_begin: CreateProcess(NULL, sh.exe -c "/mingw64/bin/gcc.exe -dumpmachine", ...) failed.
+C:\msys64\home\techb\Rack/dep.mk:23: pipe: Bad file descriptor
+ 
+# GNU Make 4.3
+# Built for Windows32
+# Copyright (C) 1988-2020 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Thu Mar 10 19:26:16 2022
+
+# Variables
+
+# environment
+FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
+# environment
+SYSTEMDRIVE = C:
+# makefile (from 'C:\msys64\home\techb\Rack/arch.mk', line 3)
+ARCH_WIN := 1
+# environment
+LC_ALL = C
+# environment
+USERPROFILE = C:\Users\techb
+# environment
+LOCALAPPDATA = C:\Users\techb\AppData\Local
+# environment
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-e06295ce-7d57-4a55-83ed-4e82a6af7374-sock
+# environment
+NDI_RUNTIME_DIR_V2 = C:\Program Files\NewTek\NDI 4 Runtime\v4
+# environment
+VSCODE_CWD = C:\Users\techb\AppData\Local\Programs\Microsoft VS Code
+# environment
+CHOCOLATEYINSTALL = C:\ProgramData\chocolatey
+# environment
+SYSTEMROOT = C:\WINDOWS
+# environment
+PROCESSOR_LEVEL = 6
+# environment
+PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+# environment
+MAKE_COMMAND = C:/msys64/usr/bin/make.exe
+# environment
+C_IA32_REDIST11 = C:\Program Files (x86)\Common Files\Intel\Shared Files\cpp\
+# automatic
+@D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
+# makefile (from 'C:\msys64\home\techb\Rack/dep.mk', line 36)
+SHA256SUM := sha256sum
+# environment
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_18072_IBFAQILVWEGFVXNN
+# environment
+FPS_BROWSER_USER_PROFILE_STRING = Default
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# default
+.VARIABLES := 
+# automatic
+%D = $(patsubst %/,%,$(patsubst %\,%,$(dir $%)))
+# automatic
+^D = $(patsubst %/,%,$(patsubst %\,%,$(dir $^)))
+# environment
+VSCODE_LOG_STACK = false
+# automatic
+%F = $(notdir $%)
+# environment
+VSCODE_CODE_CACHE_PATH = C:\Users\techb\AppData\Roaming\Code\CachedData\8908a9ca0f221f36507231afb39d2d8d1e182702
+# environment
+LANG = C
+# default
+.LOADED := 
+# environment
+TMP = C:\Users\techb\AppData\Local\Temp
+# default
+.INCLUDE_DIRS = .
+# environment
+CMAKE_AR = C:/msys64/mingw64/bin/ar.exe
+# environment
+PROCESSOR_ARCHITEW6432 = AMD64
+# makefile
+MAKEFLAGS = pqrR
+# makefile (from 'C:\msys64\home\techb\Rack/arch.mk', line 1)
+MACHINE = $(shell $(CC) -dumpmachine)
+# environment
+INTEL_DEV_REDIST = C:\Program Files (x86)\Common Files\Intel\Shared Libraries\
+# environment
+ONEDRIVE = C:\Users\techb\OneDrive
+# environment
+POWERSHELL_DISTRIBUTION_CHANNEL = MSI:Windows 10 Pro
+# makefile
+CURDIR := c:/Users/techb/Desktop/vcvrack-rtlsdr
+# environment
+VSCODE_PIPE_LOGGING = true
+# makefile (from 'C:\msys64\home\techb\Rack/dep.mk', line 22)
+UNZIP := unzip -o
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# automatic
+*D = $(patsubst %/,%,$(patsubst %\,%,$(dir $*)))
+# makefile (from 'C:\msys64\home\techb\Rack/plugin.mk', line 6)
+VERSION := 2.0.0
+# makefile (from 'C:\msys64\home\techb\Rack/dep.mk', line 40)
+SED := perl -pi -e
+# environment
+PROGRAMFILES = C:\Program Files (x86)
+# environment
+MFLAGS = -pqrR
+# default
+.SHELLFLAGS := -c
+# environment
+NDI_RUNTIME_DIR_V4 = C:\Program Files\NewTek\NDI 4 Runtime\v4
+# environment
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# makefile (from 'C:\msys64\home\techb\Rack/arch.mk', line 6)
+BITS := 64
+# automatic
++D = $(patsubst %/,%,$(patsubst %\,%,$(dir $+)))
+# makefile (from 'C:\msys64\home\techb\Rack/arch.mk', line 1)
+MAKEFILE_LIST := Makefile C:\msys64\home\techb\Rack/arch.mk C:\msys64\home\techb\Rack/plugin.mk C:\msys64\home\techb\Rack/arch.mk C:\msys64\home\techb\Rack/dep.mk C:\msys64\home\techb\Rack/arch.mk C:\msys64\home\techb\Rack/compile.mk C:\msys64\home\techb\Rack/arch.mk
+# automatic
+@F = $(notdir $@)
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+VSCODE_PID = 18072
+# makefile (from 'C:\msys64\home\techb\Rack/plugin.mk', line 5)
+SLUG := EMC23-TechTools-02
+# environment
+CMAKE_CXX_COMPILER = mingw64/bin/g++
+# environment
+CUDA_PATH = C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.4
+# automatic
+?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
+# makefile (from 'C:\msys64\home\techb\Rack/dep.mk', line 16)
+DEP_CFLAGS = $(DEP_FLAGS)
+# makefile (from 'C:\msys64\home\techb\Rack/compile.mk', line 43)
+FLAGS = $(shell $(PKGCONFIG) --cflags $(PACKAGES)) -fPIC -I$(RACK_DIR)/include -I$(RACK_DIR)/dep/include -g -MMD -MP -g -march=nocona -ffast-math -fno-finite-math-only -Wall -Wextra -Wno-unused-parameter -DARCH_WIN -D_USE_MATH_DEFINES $(EXTRA_FLAGS)
+# environment
+C_EM64T_REDIST11 = C:\Program Files (x86)\Common Files\Intel\Shared Files\cpp\
+# automatic
+*F = $(notdir $*)
+# makefile (from 'C:\msys64\home\techb\Rack/dep.mk', line 31)
+CMAKE := cmake -G 'MSYS Makefiles' -DCMAKE_INSTALL_PREFIX="c:/Users/techb/Desktop/vcvrack-rtlsdr/dep" -DCMAKE_INSTALL_LIBDIR=lib
+# automatic
+<D = $(patsubst %/,%,$(patsubst %\,%,$(dir $<)))
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-gb","availableLanguages":{},"_languagePackSupport":true}
+# environment
+ONEDRIVECONSUMER = C:\Users\techb\OneDrive
+# default
+MAKE_HOST := Windows32
+# environment
+PROGRAMDATA = C:\ProgramData
+# default
+SHELL := sh.exe
+# environment
+HOMEPATH = \Users\techb
+# default
+MAKECMDGOALS := all
+# environment
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# environment
+COMSPEC = C:\WINDOWS\system32\cmd.exe
+# environment
+WINDIR = C:\WINDOWS
+# makefile (from 'C:\msys64\home\techb\Rack/dep.mk', line 23)
+CONFIGURE := ./configure --prefix="c:/Users/techb/Desktop/vcvrack-rtlsdr/dep" --host=
+# makefile (from 'C:\msys64\home\techb\Rack/plugin.mk', line 40)
+RACK_USER_DIR = "$(USERPROFILE)"/Documents/Rack
+# environment
+MAKELEVEL := 0
+# environment
+MAKE = C:/msys64/usr/bin/make.exe
+# environment
+PATH = C:\Users\techb\Documents\Rack\plugins-v1\emc23;C:\msys64\mingw64\bin;C:\msys64\home\techb\Rack\include;C:\Program Files\ImageMagick-7.1.0-Q16-HDRI;C:\ProgramData\Miniconda3;C:\ProgramData\Miniconda3\Library\usr\bin;C:\ProgramData\Miniconda3\Library\bin;C:\ProgramData\Miniconda3\Scripts;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.4\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.4\libnvvp;C:\Python39\Scripts\;C:\Python39\;C:\Program Files (x86)\Common Files\Intel\Shared Files\cpp\bin\Intel64;C:\Program Files (x86)\Common Files\Intel\Shared Files\cpp\bin\ia32;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64_win\compiler;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\ia32\compiler;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\ProgramData\Puremagnetik;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\Calibre2\;C:\Program Files\NVIDIA Corporation\Nsight Compute 2021.2.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\nodejs\;C:\Program Files\dotnet\;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\bin\Hostx64\x64;C:\Program Files (x86)\dotnet\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\PowerShell\7\;$env:POSH_PATH;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Imaginando\FRMS;C:\Program Files\Imaginando\K7D;C:\Users\techb\AppData\Local\GitHubDesktop\bin;C:\msys64\mingw64\node-v16.3.0-win-x64;C:\msys64\user\bin;C:\Users\techb\AppData\Roaming\Python\Python39\Scripts;C:\Program Files (x86)\sox-14-4-1;C:\Users\techb\AppData\Roaming\npm;J:\Dropbox\EMCstudio\Development\Python\VQGAN;%USERPROFILE%\.dotnet\tools;;C:\Users\techb\AppData\Local\Programs\oh-my-posh\bin;C:\Users\techb\AppData\Local\Programs\oh-my-posh\themes;C:\Users\techb\AppData\Local\Programs\Microsoft VS Code\bin;C:\Exercism
+# environment
+COMPUTERNAME = HAL
+# default
+MAKEFILES := 
+# makefile (from 'C:\msys64\home\techb\Rack/dep.mk', line 6)
+DEP_PATH := c:/Users/techb/Desktop/vcvrack-rtlsdr/dep
+# automatic
+^F = $(notdir $^)
+# makefile (from 'C:\msys64\home\techb\Rack/compile.mk', line 55)
+DEPENDENCIES :=  build/src/PQ.cpp.d  build/src/plugin.cpp.d  build/src/modules/Scanner.cpp.d  build/src/sdr/SDR.cpp.d  build/src/sdr/convenience.c.d  build/src/sdr/rtl-sdr.c.d
+# environment
+PROMPT = $P$G
+# environment
+CHOCOLATEYLASTPATHUPDATE = 132552090671395835
+# environment
+NVTOOLSEXT_PATH = C:\Program Files\NVIDIA Corporation\NvToolsExt\
+# environment
+QT_DEVICE_PIXEL_RATIO = auto
+# environment
+CUDA_PATH_V11_4 = C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.4
+# environment
+MEDLEYDB_PATH = G:\Dropbox\EMCstudio\Development\Python - Machine Learning\urbanorchestra\medleydb
+# environment
+LOGONSERVER = \\HAL
+# environment
+VSCODE_LOG_NATIVE = false
+# environment
+USERNAME = techb
+# environment
+COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
+# automatic
+?F = $(notdir $?)
+# environment
+PROGRAMW6432 = C:\Program Files
+# makefile (from 'C:\msys64\home\techb\Rack/dep.mk', line 8)
+DEP_FLAGS = -fPIC -g -O3 -march=nocona
+# environment
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+# automatic
++F = $(notdir $+)
+# makefile (from 'C:\msys64\home\techb\Rack/dep.mk', line 38)
+SHA256 := sha256check() { echo "$$2  $$1" | sha256sum -c; }; sha256check
+# environment
+NVCUDASAMPLES11_4_ROOT = C:\ProgramData\NVIDIA Corporation\CUDA Samples\v11.4
+# makefile (from 'Makefile', line 4)
+PKGCONFIG = pkg-config
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# makefile (from 'C:\msys64\home\techb\Rack/compile.mk', line 53)
+OBJECTS :=  build/src/PQ.cpp.o  build/src/plugin.cpp.o  build/src/modules/Scanner.cpp.o  build/src/sdr/SDR.cpp.o  build/src/sdr/convenience.c.o  build/src/sdr/rtl-sdr.c.o 
+# environment
+USERDOMAIN = HAL
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+VS140COMNTOOLS = C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\Tools\
+# environment
+OS = Windows_NT
+# environment
+OPCODE6DIR64 = C:\Program Files\VstPlugins\Effects
+# environment
+RACK_DIR = C:\msys64\home\techb\Rack
+# environment
+NDI_RUNTIME_DIR_V3 = C:\Program Files\NewTek\NDI 4 Runtime\v4
+# makefile (from 'C:\msys64\home\techb\Rack/plugin.mk', line 78)
+.DEFAULT_GOAL := all
+# makefile (from 'C:\msys64\home\techb\Rack/arch.mk', line 4)
+ARCH := win
+# makefile (from 'Makefile', line 5)
+PACKAGES = libusb-1.0 librtlsdr
+# default
+MAKE_VERSION := 4.3
+# makefile (from 'C:\msys64\home\techb\Rack/dep.mk', line 20)
+WGET := wget -c
+# 'override' directive
+.SHELLSTATUS := 127
+# environment
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# makefile (from 'C:\msys64\home\techb\Rack/dep.mk', line 21)
+UNTAR := tar xf
+# environment
+CMAKE_C_COMPILER = /ming64/bin/gcc
+# makefile (from 'C:\msys64\home\techb\Rack/compile.mk', line 46)
+LDFLAGS = $(shell $(PKGCONFIG) --variable=libdir librtlsdr)/librtlsdr_static.a $(shell $(PKGCONFIG) --variable=libdir libusb-1.0)/libusb-1.0.a -shared -L$(RACK_DIR) -lRack $(EXTRA_LDFLAGS)
+# environment
+NVCUDASAMPLES_ROOT = C:\ProgramData\NVIDIA Corporation\CUDA Samples\v11.4
+# environment
+USERDOMAIN_ROAMINGPROFILE = HAL
+# environment
+NUMBER_OF_PROCESSORS = 16
+# environment
+PUBLIC = C:\Users\Public
+# makefile (from 'C:\msys64\home\techb\Rack/dep.mk', line 17)
+DEP_CXXFLAGS = $(DEP_FLAGS)
+# environment
+APPDATA = C:\Users\techb\AppData\Roaming
+# makefile (from 'C:\msys64\home\techb\Rack/compile.mk', line 49)
+CFLAGS = $(EXTRA_CFLAGS) $(FLAGS)
+# makefile (from 'C:\msys64\home\techb\Rack/arch.mk', line 5)
+ARCH_WIN_64 := 1
+# environment
+HOMEDRIVE = C:
+# environment
+PROCESSOR_ARCHITECTURE = x86
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+TEMP = C:\Users\techb\AppData\Local\Temp
+# environment
+VSCODE_IPC_HOOK = \\.\pipe\ccf3e687783ebea4c0e62eff7022d9f9-1.65.1-main-sock
+# default
+.RECIPEPREFIX := 
+# automatic
+<F = $(notdir $<)
+# default
+SUFFIXES := 
+# environment
+ALLUSERSPROFILE = C:\ProgramData
+# makefile (from 'C:\msys64\home\techb\Rack/plugin.mk', line 39)
+TARGET := plugin.dll
+# environment
+SESSIONNAME = Console
+# makefile (from 'C:\msys64\home\techb\Rack/dep.mk', line 4)
+DEP_LOCAL = dep
+# makefile (from 'C:\msys64\home\techb\Rack/compile.mk', line 50)
+CXXFLAGS = -std=c++11 -Wsuggest-override $(EXTRA_CXXFLAGS) $(FLAGS)
+# makefile (from 'C:\msys64\home\techb\Rack/compile.mk', line 8)
+STRIP = strip
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync load
+# environment
+PROCESSOR_REVISION = 9e0d
+# environment
+CXX = /mingw64/bin/g++.exe
+# environment
+CC = /mingw64/bin/gcc.exe
+# makefile (from 'C:\msys64\home\techb\Rack/compile.mk', line 7)
+OBJCOPY = objcopy
+# makefile (from 'Makefile', line 13)
+SOURCES = $(wildcard src/*.cpp src/*.c src/*/*.cpp src/*/*.c)
+# makefile (from 'C:\msys64\home\techb\Rack/plugin.mk', line 15)
+DISTRIBUTABLES = $(wildcard LICENSE*) res plugin.json
+# environment
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 158 Stepping 13, GenuineIntel
+# variable set hash-table stats:
+# Load=154/1024=15%, Rehash=0, Collisions=29/361=8%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# src/modules (key c:/Users/techb/Desktop/vcvrack-rtlsdr/src/modules, mtime 1646909586): 6 files, no impossibilities.
+# src (key c:/Users/techb/Desktop/vcvrack-rtlsdr/src, mtime 1646936750): 8 files, no impossibilities.
+# . (key c:/Users/techb/Desktop/vcvrack-rtlsdr, mtime 1646936776): 18 files, no impossibilities.
+# src/sdr (key c:/Users/techb/Desktop/vcvrack-rtlsdr/src/sdr, mtime 1646936712): 7 files, no impossibilities.
+
+# 39 files, no impossibilities in 4 directories.
+
+# Implicit Rules
+
+build/%.c.o: %.c
+#  recipe to execute (from 'C:\msys64\home\techb\Rack/compile.mk', line 65):
+	@mkdir -p $(@D)
+	$(CC) $(CFLAGS) -c -o $@ $<
+
+build/%.cpp.o: %.cpp
+#  recipe to execute (from 'C:\msys64\home\techb\Rack/compile.mk', line 69):
+	@mkdir -p $(@D)
+	$(CXX) $(CXXFLAGS) -c -o $@ $<
+
+build/%.cc.o: %.cc
+#  recipe to execute (from 'C:\msys64\home\techb\Rack/compile.mk', line 73):
+	@mkdir -p $(@D)
+	$(CXX) $(CXXFLAGS) -c -o $@ $<
+
+build/%.m.o: %.m
+#  recipe to execute (from 'C:\msys64\home\techb\Rack/compile.mk', line 77):
+	@mkdir -p $(@D)
+	$(CC) $(CFLAGS) -c -o $@ $<
+
+build/%.bin.o: %
+#  recipe to execute (from 'C:\msys64\home\techb\Rack/compile.mk', line 81):
+	@mkdir -p $(@D)
+	$(OBJCOPY) -I binary -O pe-x86-64 -B i386:x86-64 --rename-section .data=.rodata,alloc,load,readonly,data,contents $< $@
+
+# 5 implicit rules, 0 (0.0%) terminal.
+# Files
+
+# Not a target:
+build/src/sdr/SDR.cpp.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+dist: all
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'C:\msys64\home\techb\Rack/plugin.mk', line 56):
+	rm -rf dist
+	mkdir -p dist/"$(SLUG)"
+	@# Strip and copy plugin binary
+	cp $(TARGET) dist/"$(SLUG)"/
+	@# Copy distributables
+	cp -r --parents $(DISTRIBUTABLES) dist/"$(SLUG)"/
+	@# Create ZIP package
+	cd dist && zip -q -9 -r "$(SLUG)"-"$(VERSION)"-$(ARCH).zip "$(SLUG)"
+
+# Not a target:
+C:\msys64\home\techb\Rack/plugin.mk:
+#  Implicit rule search has been done.
+#  Last modified 2021-10-07 15:58:55
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+build/src/plugin.cpp.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+build/src/modules/Scanner.cpp.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+C:\msys64\home\techb\Rack/dep.mk:
+#  Implicit rule search has been done.
+#  Last modified 2021-10-03 01:11:29
+#  File has been updated.
+#  Successfully updated.
+
+cleandep:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'C:\msys64\home\techb\Rack/dep.mk', line 53):
+	rm -rfv $(DEP_LOCAL)
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-03-10 19:19:46
+#  File has been updated.
+#  Successfully updated.
+
+dep:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+# Not a target:
+src/PQ.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-03-10 19:19:47
+#  File has been updated.
+#  Successfully updated.
+
+clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'C:\msys64\home\techb\Rack/plugin.mk', line 53):
+	rm -rfv build $(TARGET) dist
+
+# Not a target:
+build/src/sdr/convenience.c.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+build/src/sdr/rtl-sdr.c.d:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
+# Not a target:
+C:\msys64\home\techb\Rack/compile.mk:
+#  Implicit rule search has been done.
+#  Last modified 2021-10-07 16:00:05
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+build/src/sdr/SDR.cpp.d:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
+# Not a target:
+build/src/plugin.cpp.d:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
+# Not a target:
+build/src/sdr/rtl-sdr.c.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+all: plugin.dll
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/18=0%
+
+plugin.dll: build/src/PQ.cpp.o build/src/plugin.cpp.o build/src/modules/Scanner.cpp.o build/src/sdr/SDR.cpp.o build/src/sdr/convenience.c.o build/src/sdr/rtl-sdr.c.o
+#  Implicit rule search has not been done.
+#  Last modified 2022-03-06 14:23:46
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/18=0%
+#  recipe to execute (from 'C:\msys64\home\techb\Rack/compile.mk', line 60):
+	$(CXX) -o $@ $^ $(LDFLAGS)
+
+install: dist
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'C:\msys64\home\techb\Rack/plugin.mk', line 75):
+	cp dist/"$(SLUG)"-"$(VERSION)"-$(ARCH).zip $(RACK_USER_DIR)/plugins-v1/
+
+# Not a target:
+build/src/PQ.cpp.d:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
+# Not a target:
+build/src/sdr/convenience.c.d:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
+# Not a target:
+C:\msys64\home\techb\Rack/arch.mk:
+#  Implicit rule search has been done.
+#  Last modified 2021-10-03 01:13:29
+#  File has been updated.
+#  Successfully updated.
+
+# 'override' directive
+build/src/PQ.cpp.o: .SHELLSTATUS := 0
+build/src/PQ.cpp.o: src/PQ.cpp
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'src/PQ'
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := build/src/PQ.cpp.o
+# automatic
+# * := src/PQ
+# automatic
+# < := src/PQ.cpp
+# automatic
+# + := src/PQ.cpp
+# automatic
+# % := 
+# automatic
+# ^ := src/PQ.cpp
+# automatic
+# ? := src/PQ.cpp
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=9/32=28%, Rehash=0, Collisions=4/30=13%
+#  recipe to execute (from 'C:\msys64\home\techb\Rack/compile.mk', line 69):
+	@mkdir -p $(@D)
+	$(CXX) $(CXXFLAGS) -c -o $@ $<
+
+.PHONY: dep clean dist
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+build/src/modules/Scanner.cpp.d:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
+# files hash-table stats:
+# Load=28/1024=3%, Rehash=0, Collisions=0/69=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 70 / storage = 911 B / avg = 13 B
+# current buf: size = 8174 B / used = 911 B / count = 70 / avg = 13 B
+
+# strcache performance: lookups = 118 / hit rate = 40%
+# hash-table stats:
+# Load=70/8192=1%, Rehash=0, Collisions=4/118=3%
+# Finished Make data base on Thu Mar 10 19:26:16 2022
+
+ 
