@@ -17,9 +17,7 @@ Status: </br>
   2) The module is using up to 8% resources. </br>
   3) I cannot implement bandwidth as yet. There will be no FM radio staion recieving until I implement bandwidth (I think). </br>
   4) the makefile embeds static libraries. I have not gotten this far. I will implement static libraries soonish. </br>
- 
-</p>
-
+ </p>
 <hr style="width:1000px; border: 1px solid black;"/>
 <h3>Licenses</h3>
 <p>
@@ -33,9 +31,6 @@ Some source code in this repository is copyright (c) 2019, Clement Foulc and lic
 </p>
 <p>
 All graphics including the Techbot logo, panels and components are copyright © 2021 emc23/techbot https://www.emc23.com
-</p>
-<p>
-16 Step Rompler Glitch sounds taken from Left's Sound Design and contributions from the EMC meetup group
 </p>
 
 <p>
