@@ -16,7 +16,7 @@ Status: </br>
   1) This will crash so save the patches not just the host file if you are using as a VST. I have no close device implementation done. </br>
   2) The module is using up to 8% resources. </br>
   3) I cannot implement bandwidth as yet. There will be no FM radio staion recieving until I implement bandwidth (I think). </br>
-  4) the makefile embeds static linbraries. I have not gotten this far. I will implement static libraries soonish. </br>
+  4) the makefile embeds static libraries. I have not gotten this far. I will implement static libraries soonish. </br>
  
 </p>
 
