@@ -12,7 +12,9 @@
 </table>
 
 <p>
-
+Status:
+  This will crash so save the patches not just the host file if you are using as a VST. I have no close device implementation done.  The module is using up to 8% resources.
+  I cannot implement bandwidth as yet. There will be no FM radio staion recieving until I implement bandwidth (I think).
 </p>
 
 <hr style="width:1000px; border: 1px solid black;"/>
