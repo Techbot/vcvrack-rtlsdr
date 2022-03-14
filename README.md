@@ -2,8 +2,8 @@
 <tr style="border: 0px solid black;">
 <td style="border: 0px solid black;">
 <center>
-<img src="https://github.com/EMC23/techtools/blob/main/img/Techbot.png" alt="Techbot">
-<img src="https://github.com/EMC23/techtools/blob/main/img/vcvrack_.png" alt="VCVrack Plugin">
+<img src="https://github.com/Techbot/vcvrack-rtlsdr/blob/master/img/Techbot.png" alt="Techbot">
+<img src="https://github.com/Techbot/vcvrack-rtlsdr/blob/master/img/vcvrack_.png" alt="VCVrack Plugin">
 <h1 style="border-bottom: 0px;font-size:50px;">SDR- RTL</h1>
 <h2 style="border-bottom: 0px;">Plugin modules for VCV Rack v2 </h2>
 </center>
